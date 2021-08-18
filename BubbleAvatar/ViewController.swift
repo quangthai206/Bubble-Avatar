@@ -79,7 +79,7 @@ class ViewController: UIViewController {
         
         // Add tap gesture to image
         imageView.isUserInteractionEnabled = true
-        imageView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(handleTap(_:))))
+        imageView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(handleTap)))
         
         view.addSubview(imageView)
     }
